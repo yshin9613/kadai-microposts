@@ -15,7 +15,9 @@
         </aside>
         <div class="col-sm-8">
             @include('users.navtabs', ['user' => $user])
-            @include('users.users', ['users' => $users])
+          　
+            @include('microposts.microposts', ['microposts' => $microposts])
+        
         </div>
     </div>
 @endsection
